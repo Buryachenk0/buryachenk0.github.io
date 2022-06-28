@@ -1,18 +1,15 @@
 //functions
 function func1() {
 	z = z + 1;
-	console.log(z);
+	console.log("Новое значение!");
 	document.querySelector('.r').innerHTML = z;
 }
 
-//code
-
-console.log('Hello');
-document.querySelector('h1').innerHTML = 'Hello';
+//var
 let z = 0;
+let title = document.querySelector(title);
+
+//code
+document.querySelector('h1').innerHTML = 'Hello';
 console.log(z);
-
 document.querySelector('.b1').onclick = func1;
-
-console.log('last');
-
